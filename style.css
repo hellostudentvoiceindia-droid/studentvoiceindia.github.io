@@ -1,98 +1,134 @@
 body{
-    font-family:Arial,sans-serif;
-    background:#f4f7fb;
     margin:0;
+    background:#eef3fb;
+    font-family:Arial, Helvetica, sans-serif;
     padding:40px;
 }
 
 .card{
-    max-width:700px;
-    margin:auto;
-    background:#fff;
-    padding:25px 40px 40px;
-    border-radius:18px;
+
+    max-width:760px;
+
+    margin:40px auto;
+
+    background:#ffffff;
+
+    border-radius:22px;
+
+    padding:45px;
+
     text-align:center;
-    box-shadow:0 8px 24px rgba(0,0,0,.10);
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
 }
 
 .logo{
-    max-width:340px;
-    width:100%;
-    height:auto;
+
+    width:340px;
+
+    max-width:90%;
+
     display:block;
-    margin:0 auto 20px;
+
+    margin:0 auto 15px;
+
+}
+
+.launch{
+
+    color:#1d56a8;
+
+    font-weight:700;
+
+    font-size:28px;
+
+    margin-bottom:18px;
+
 }
 
 h1{
-    margin-top:0;
-    margin-bottom:10px;
-    font-size:52px;
-}
 
-.launching{
-    color:#1e5aa8;
-    font-weight:bold;
-    font-size:20px;
-    margin-bottom:20px;
+    font-size:48px;
+
+    line-height:1.2;
+
+    font-weight:700;
+
+    color:#111;
+
+    margin:0 0 25px;
+
 }
 
 .description{
-    font-size:24px;
-    line-height:1.6;
-    margin-bottom:30px;
+
+    font-size:27px;
+
+    line-height:1.7;
+
+    color:#333;
+
+    margin-bottom:35px;
+
 }
 
 .btn{
+
     display:inline-block;
-    background:#163b6d;
+
+    background:#183f74;
+
     color:#fff;
-    padding:16px 34px;
-    border-radius:10px;
+
+    padding:18px 38px;
+
     text-decoration:none;
-    font-size:18px;
+
+    border-radius:10px;
+
+    font-size:24px;
+
     font-weight:600;
-    transition:.3s;
+
 }
 
 .btn:hover{
-    background:#0f2c52;
-    transform:translateY(-2px);
+
+    background:#12335d;
+
 }
+
 .contact{
-    margin-top:25px;
-    font-size:18px;
+
+    margin-top:35px;
+
+    font-size:23px;
+
     line-height:1.8;
+
 }
 
 hr{
-    margin:30px 0;
+
+    margin:35px 0;
+
+    border:none;
+
+    border-top:1px solid #ddd;
+
 }
 
-@media (max-width:768px){
+.copyright{
 
-body{
-    padding:20px;
+    font-size:22px;
+
 }
 
-.card{
-    padding:20px;
-}
+.footer{
 
-.logo{
-    max-width:180px;
-}
+    font-size:22px;
 
-h1{
-    font-size:34px;
-}
-
-.description{
-    font-size:18px;
-}
-
-.btn{
-    width:100%;
-    box-sizing:border-box;
-}
+    color:#444;
 
 }
