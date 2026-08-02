@@ -6,21 +6,15 @@ body{
 }
 
 .card{
-
     max-width:760px;
-
+    width:100%;
     margin:40px auto;
-
     background:#ffffff;
-
     border-radius:22px;
-
     padding:45px;
-
     text-align:center;
-
     box-shadow:0 10px 30px rgba(0,0,0,.08);
-
+    box-sizing:border-box;
 }
 
 .logo{
@@ -40,6 +34,7 @@ body{
 h1{
     font-size:54px;
     line-height:1.15;
+    margin:20px 0;
 }
 
 .description{
@@ -48,61 +43,89 @@ h1{
 }
 
 .btn{
-
     display:inline-block;
-
     background:#183f74;
-
     color:#fff;
-
-   padding:16px 36px;
-
+    padding:16px 36px;
     text-decoration:none;
-
     border-radius:10px;
-
-   font-size:28px;
-
+    font-size:28px;
     font-weight:600;
-
 }
 
 .btn:hover{
-
     background:#12335d;
-
 }
 
 .contact{
-
     margin-top:35px;
-
     font-size:23px;
-
     line-height:1.8;
-
 }
 
 hr{
-
     margin:35px 0;
-
     border:none;
-
     border-top:1px solid #ddd;
-
 }
 
 .copyright{
-
     font-size:22px;
-
 }
 
 .footer{
-
     font-size:22px;
-
     color:#444;
+}
+
+/* ========================= */
+/* MOBILE RESPONSIVE */
+/* ========================= */
+
+@media screen and (max-width:768px){
+
+body{
+    padding:15px;
+}
+
+.card{
+    width:100%;
+    padding:28px 20px;
+    margin:20px auto;
+}
+
+.logo{
+    width:180px;
+}
+
+.launch{
+    font-size:18px;
+}
+
+h1{
+    font-size:34px;
+    line-height:1.25;
+}
+
+.description{
+    font-size:18px;
+    line-height:1.6;
+}
+
+.btn{
+    width:100%;
+    box-sizing:border-box;
+    font-size:22px;
+    padding:15px;
+}
+
+.contact{
+    font-size:18px;
+}
+
+.copyright,
+.footer{
+    font-size:16px;
+}
 
 }
