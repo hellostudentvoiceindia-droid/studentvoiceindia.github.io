@@ -1,56 +1,68 @@
-body{
+/* =========================
+   Student Voice India
+   Responsive Stylesheet
+========================= */
+
+*{
     margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
     background:#eef3fb;
     font-family:Arial, Helvetica, sans-serif;
-    padding:40px;
+    padding:40px 20px;
 }
 
 .card{
     max-width:760px;
-    width:100%;
     margin:40px auto;
     background:#ffffff;
     border-radius:22px;
     padding:45px;
     text-align:center;
     box-shadow:0 10px 30px rgba(0,0,0,.08);
-    box-sizing:border-box;
 }
 
 .logo{
     width:280px;
-    max-width:90%;
-    margin:0 auto 12px;
+    max-width:100%;
     display:block;
+    margin:0 auto 20px;
 }
 
 .launch{
     color:#1d56a8;
     font-size:24px;
     font-weight:700;
-    margin-bottom:15px;
+    margin-bottom:20px;
 }
 
 h1{
     font-size:54px;
     line-height:1.15;
-    margin:20px 0;
+    color:#111;
+    margin-bottom:25px;
 }
 
 .description{
     font-size:22px;
     line-height:1.7;
+    color:#333;
+    margin-bottom:35px;
 }
 
 .btn{
     display:inline-block;
     background:#183f74;
-    color:#fff;
-    padding:16px 36px;
+    color:#ffffff;
     text-decoration:none;
+    padding:18px 40px;
     border-radius:10px;
     font-size:28px;
     font-weight:600;
+    transition:0.3s;
 }
 
 .btn:hover{
@@ -59,28 +71,66 @@ h1{
 
 .contact{
     margin-top:35px;
-    font-size:23px;
+    font-size:22px;
     line-height:1.8;
+    color:#333;
+}
+
+.contact p{
+    margin:8px 0;
 }
 
 hr{
     margin:35px 0;
     border:none;
-    border-top:1px solid #ddd;
+    border-top:1px solid #dddddd;
 }
 
 .copyright{
     font-size:22px;
+    margin-bottom:12px;
 }
 
 .footer{
-    font-size:22px;
-    color:#444;
+    font-size:20px;
+    color:#555;
 }
 
-/* ========================= */
-/* MOBILE RESPONSIVE */
-/* ========================= */
+
+
+/* =====================================
+      TABLET RESPONSIVE
+===================================== */
+
+@media screen and (max-width:992px){
+
+.card{
+    padding:35px;
+}
+
+.logo{
+    width:240px;
+}
+
+h1{
+    font-size:46px;
+}
+
+.description{
+    font-size:20px;
+}
+
+.btn{
+    font-size:24px;
+}
+
+}
+
+
+
+/* =====================================
+      MOBILE RESPONSIVE
+===================================== */
 
 @media screen and (max-width:768px){
 
@@ -90,42 +140,109 @@ body{
 
 .card{
     width:100%;
-    padding:28px 20px;
     margin:20px auto;
+    padding:28px 20px;
+    border-radius:18px;
 }
 
 .logo{
     width:180px;
+    margin-bottom:15px;
 }
 
 .launch{
     font-size:18px;
+    margin-bottom:15px;
 }
 
 h1{
     font-size:34px;
     line-height:1.25;
+    margin-bottom:18px;
 }
 
 .description{
     font-size:18px;
     line-height:1.6;
+    margin-bottom:28px;
 }
 
 .btn{
+    display:block;
     width:100%;
-    box-sizing:border-box;
+    padding:16px;
     font-size:22px;
-    padding:15px;
 }
 
 .contact{
     font-size:18px;
+    line-height:1.7;
+    word-break:break-word;
 }
 
-.copyright,
+.contact p{
+    margin:10px 0;
+}
+
+.copyright{
+    font-size:18px;
+}
+
 .footer{
+    font-size:17px;
+    line-height:1.5;
+}
+
+}
+
+
+
+/* =====================================
+      SMALL MOBILE (Android/iPhone SE)
+===================================== */
+
+@media screen and (max-width:480px){
+
+body{
+    padding:10px;
+}
+
+.card{
+    padding:22px 16px;
+}
+
+.logo{
+    width:160px;
+}
+
+.launch{
+    font-size:17px;
+}
+
+h1{
+    font-size:28px;
+    line-height:1.3;
+}
+
+.description{
+    font-size:17px;
+}
+
+.btn{
+    font-size:20px;
+    padding:15px;
+}
+
+.contact{
     font-size:16px;
+}
+
+.copyright{
+    font-size:16px;
+}
+
+.footer{
+    font-size:15px;
 }
 
 }
