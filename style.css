@@ -16,11 +16,11 @@ body{
 }
 
 .logo{
-    width:280px;
-    max-width:100%;
+    width:500px;
+    max-width:90%;
     height:auto;
     display:block;
-    margin:0 auto 20px;
+    margin:0 auto 30px;
 }
 
 .tagline{
