@@ -44,17 +44,18 @@ h1{
     display:inline-block;
     background:#163b6d;
     color:#fff;
-    padding:14px 28px;
-    border-radius:8px;
+    padding:16px 34px;
+    border-radius:10px;
     text-decoration:none;
     font-size:18px;
-    font-weight:bold;
+    font-weight:600;
+    transition:.3s;
 }
 
 .btn:hover{
     background:#0f2c52;
+    transform:translateY(-2px);
 }
-
 .contact{
     margin-top:25px;
     font-size:18px;
